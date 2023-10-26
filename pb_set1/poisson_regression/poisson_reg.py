@@ -3,7 +3,6 @@ import numpy as np
 class Poisson():
     def __init__(self):
         self.x_train=self.y_train=self=self.theta=0
-        self.poisson_reg=0
 
     def fit(self,train,lr,iteration):
         self.x_train=train[:,:-1]
